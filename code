@@ -48,5 +48,6 @@ function randomFromAll($opt_list, $chosen_opt){
     if $GLOBALS ["race"] == ["42% White"] {
     	$GLOBALS ["partyaff"] != ["Mostly Republican"]
 
+}
 
 ?>
