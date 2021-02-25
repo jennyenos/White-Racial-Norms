@@ -16,9 +16,9 @@ $GLOBALS["characteristics"] = array(
     "race" => ["42% White", "74% White", "92% White"],
     "partyaff" => ["75% Republican, 25% Democrat", "75% Democrat, 25% Republican", "51% Republican, 49% Democrat"],
     "govt_partyaff" => ["Mostly Republican", "Mostly Democrat", "Mixed Republican and Democrat"],
-    "comm_react" => ["Group of White supporters joined an hour later", "Group of mostly White counter-protesters gathered an hour later", "Group of mostly Black and Latino counter-protesters gathered an hour later", "No immediate community reaction"],
-    "pol_react" => ["They put out a press relese encouraging residents to exercise their right free speach", "They put out a press condemning White supremacy but also acknowledging residents' right to exercise free speech", "They put out a press release condemning White supremacy", "They called an immediate press conference with local reporters to condemn White supremacy"],
-    "bus_react" => ["They declined to comment on the event", "They put out a statement publicly condemning White supremacy", "They put out a statement supporting people exercising their right to free speech"]
+    "comm_react" => ["A group of White supporters joined an hour later", "A group of mostly White counter-protesters gathered an hour later", "A group of mostly Black and Latino counter-protesters gathered an hour later", "There was no immediate community reaction to the event"],
+    "pol_react" => ["Local government officials put out a press relese encouraging residents to exercise their right free speach", "Local government officials put out a press condemning White supremacy but also acknowledging residents' right to exercise free speech", "Local government officials put out a press release condemning White supremacy", "Local government officials called an immediate press conference with local reporters to condemn White supremacy"],
+    "bus_react" => ["Local business leaders declined to comment on the event", "Local business leaders put out a statement publicly condemning White supremacy", "Local business leaders put out a statement supporting people exercising their right to free speech"]
 );
 $num_chars = count($GLOBALS["characteristics"]);
 $char_list = array_keys($GLOBALS["characteristics"]);
