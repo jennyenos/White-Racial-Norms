@@ -17,7 +17,7 @@ $GLOBALS["characteristics"] = array(
     "comm_react" => ["A group of White supporters joined an hour later", "A group of mostly White counter-protesters gathered an hour later", "A group of mostly Black and Latino counter-protesters gathered an hour later", "There was no immediate community reaction to the event"],
     "pol_react" => ["Local government officials put out a press release encouraging residents to exercise their right to free speech", "Local government officials put out a press release condemning White supremacy but also acknowledging residents' right to exercise free speech", "Local government officials put out a press release condemning White supremacy", "Local government officials called an immediate press conference with local reporters to condemn White supremacy"],
     "bus_react" => ["Local business leaders declined to comment on the event", "Local business leaders put out a statement publicly condemning White supremacy", "Local business leaders put out a statement supporting people exercising their right to free speech"],
-    "pd_react" => ["Police responded to the gathering with riot gear and tear gas, eventually arresting some participants who had become violent", "Police responded to the gathering to protect the group's first amendment rights and to fend off potential counter-protesters", "Police did not respond to the scene of the gathering" 
+    "pd_react" => ["Police kept watch over the event to ensure those at the rally were protected", "Police kept watch over the event to ensure those at the rally did not commit violence against others"
 );
 $num_chars = count($GLOBALS["characteristics"]);
 $char_list = array_keys($GLOBALS["characteristics"]);
@@ -25,10 +25,10 @@ $char_list = array_keys($GLOBALS["characteristics"]);
 $GLOBALS["table_display"] = array(
     "race" => "Racial Composition of Residents",
     "govt_partyaff" => "Political Affiliation of Local Government",
-    "comm_react" => "Community Reaction to the White Supremacist Gathering",
-    "pol_react" => "Local Government's Reaction to the White Supremacist Gathering",
-    "bus_react" => "Local Business Leaders' Reaction to the White Supremacist Gathering",
-    "pd_react" => "Local Police Department's Reaction to the White Supremacist Gathering"
+    "comm_react" => "Community Reaction to Rally",
+    "pol_react" => "Local Government's Reaction to Rally",
+    "bus_react" => "Local Business Leaders' Reaction to Rally",
+    "pd_react" => "Local Police Department's Reaction to Rally"
 );
 
 // This will be iteratively updated to contain the array we want to return to Qualtrics
