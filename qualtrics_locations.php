@@ -81,7 +81,7 @@ foreach ($GLOBALS["characteristics"] as $ch_name => $ch_values) {
         //var_dump($ch_values);
         // Here's where we remove "Mostly Republican" from the options if race == "42% White"
         $filtered_values = $ch_values;
-        if ($ch_name == "govt_partyaff")) {
+        if ($ch_name == "govt_partyaff") {
             // Need to check race
             $race_varname = "generated_race_" . $i;
             $race_val = $GLOBALS["r"][$race_varname];
